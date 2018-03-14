@@ -8,12 +8,13 @@ public class Hora {
     
     // O método construtor está sobrecarregado
     // Construtor sem parâmetros
+    /*
     public Hora () {
         
         hora = minuto = segundo = 0;
         
     }
-    
+    */
     // Construtor com um parâmetro
     public Hora (int hora) {
         
@@ -71,6 +72,7 @@ public class Hora {
     // Imprime a hora no formato AM ou PM
     // @Override porque o método toString() já existe na classe pai
     //      e está sendo sobrescrito
+    
     @Override
     public String toString () {
         

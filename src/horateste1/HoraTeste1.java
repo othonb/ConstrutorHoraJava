@@ -18,7 +18,7 @@ public class HoraTeste1 {
 
     public static void main(String[] args) {
         
-        Hora hora = new Hora (12, 35, 43);
+        Hora hora = new Hora ();
         
         imprimeHora(hora);
         
