@@ -8,30 +8,36 @@ public class Hora {
     
     // O método construtor está sobrecarregado
     // Construtor sem parâmetros
-    /*
+    
     public Hora () {
         
-        hora = minuto = segundo = 0;
+        //hora = minuto = segundo = 0;
+        
+        this (0, 0, 0);
         
     }
-    */
+    
     // Construtor com um parâmetro
     public Hora (int hora) {
         
-        this.hora = hora;
+        //this.hora = hora;
         
-        minuto = segundo = 0;
+       // minuto = segundo = 0;
+       
+       this (hora, 0, 0);
         
     }
     
     // Construtor com dois parâmetros
     public Hora (int hora, int minuto) {
         
-        this.hora = hora;
+        //this.hora = hora;
         
-        this.minuto = minuto;
+        //this.minuto = minuto;
         
-        segundo = 0;
+        //segundo = 0;
+        
+        this (hora, minuto, 0);
         
     }
     
